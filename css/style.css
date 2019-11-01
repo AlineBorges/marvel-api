@@ -1,0 +1,78 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Staatliches';
+    text-align: center;
+    background: url('../img/BG.png') no-repeat center center / cover fixed;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heroImg {
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+}
+
+.heroProfile {
+    align-items: center;
+    float: left;
+    width: 30%;
+    margin: 20px 5px;
+    padding: 15px;
+}
+
+.heroTitle {
+    font-size: 25px;  
+    padding: 40px 0px; 
+}
+
+.heroDescription {
+   font-style: italic;
+   margin: 5px;
+   background-color: rgb(250, 243, 243);
+   border-style: solid;
+}
+
+.next{
+    border-radius: 16px;
+    border:none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flexbox;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.next:hover{
+    background-color: rgb(2, 2, 2);
+}
+
+.inputSearch {
+    border-radius: 16px;
+    border:none;
+    padding: 10px 100px;
+    text-align: center;
+    border-top: 3px solid rgb(2, 2, 2);
+    border-bottom: 3px solid rgb(2, 2, 2);
+    border-left: 3px solid rgb(2, 2, 2);
+    border-right: 30px solid rgb(2, 2, 2);
+    text-decoration: none;
+    display: inline-flexbox;
+    margin: 4px 2px;
+    background-color: transparent;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
