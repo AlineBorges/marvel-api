@@ -8,7 +8,7 @@ Project only contains static files and no dependencies. Just need to clone the p
 
 ## Authors
 
-(Aline Borges)[https://github.com/AlineBorges]
+[Aline Borges](https://github.com/AlineBorges)
 
 
 ## Demo
