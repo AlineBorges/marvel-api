@@ -4,7 +4,7 @@ const privateKey = "83355aed9d59effedf5292aa38a80f6723a72162",
       publicKey = "06dd80e643de0453558d368f75317135",
       search = document.querySelector("#searchInput"),
       content = document.querySelector("#content"),
-      characterURL = `http://gateway.marvel.com/v1/public/characters?`,
+      characterURL = `https://gateway.marvel.com/v1/public/characters?`,
       ts = Date.now(),
       hash = MD5(ts + privateKey + publicKey),
       baseParameters = `ts=${ts}&apikey=${publicKey}&hash=${hash}&limit=99`;
