@@ -1,7 +1,7 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -24,7 +24,6 @@ body {
 
 .heroProfile {
     align-items: center;
-    float: left;
     width: 30%;
     margin: 20px 5px;
     padding: 15px;
@@ -36,10 +35,14 @@ body {
 }
 
 .heroDescription {
-   font-style: italic;
-   margin: 5px;
-   background-color: rgb(250, 243, 243);
-   border-style: solid;
+    font-style: italic;
+    margin: 5px;
+    background-color: rgb(250, 243, 243);
+    border-style: solid;
+}
+
+.heroDescription.hidden {
+    display: none;
 }
 
 .next{
@@ -54,6 +57,10 @@ body {
     background-color: rgb(54, 54, 54);
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+
+.next.hidden {
+    display: none;
 }
 
 .next:hover{
