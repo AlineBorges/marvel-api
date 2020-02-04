@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/aline-borges/marvel-api/blob/master/img/logo.png?raw=true">
+</p>
+
 # Marvel API
 
 This is a JavaScript project that uses https://developer.marvel.com/ to get Marvel characters information, like name, image and description.
